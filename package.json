@@ -4,13 +4,17 @@
   "description": "demo for the aviasales",
   "main": "index.js",
   "dependencies": {
+    "debounce": "^1.2.0",
+    "mobx": "^5.13.0",
     "next": "^9.0.6",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
